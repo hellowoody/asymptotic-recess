@@ -1,0 +1,39 @@
+html,body{  
+    margin: 0px;
+    padding:0px;
+    height: 100%;
+} 
+.my-font{
+	margin: 0px;
+    padding-top: 300px;
+    color: #fafafa;
+    font-size: 20px!important;
+}
+.animate-img {
+	animation: slide 10s infinite linear;
+   	-webkit-animation: slide 10s infinite linear;
+	-moz-animation: slide 10s infinite linear;
+	-o-animation: slide 10s infinite linear;
+}
+@-webkit-keyframes slide {
+	0% {transform:scale(1,1)}
+	50% {transform:scale(1.1,1.1)}
+	100% {transform:scale(1,1)}
+}
+
+@-moz-keyframes slide {
+	0% {transform:scale(1,1)}
+	50% {transform:scale(1.1,1.1)}
+	100% {transform:scale(1,1)}
+}
+
+@keyframes slide {
+	0% {transform:scale(1,1)}
+	50% {transform:scale(1.1,1.1)}
+	100% {transform:scale(1,1)}
+}
+@-o-keyframes slide {
+	0% {transform:scale(1,1)}
+	50% {transform:scale(1.1,1.1)}
+	100% {transform:scale(1,1)}
+}
